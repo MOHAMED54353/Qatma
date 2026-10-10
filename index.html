@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Montserrat:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+    <title>قَطْمَة | Qatma</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <img src="./image/WhatsApp Image 2026-10-06 at 1.34.00 AM.jpeg" alt="Qatma logo">
+            </a>
+
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+                <li><a href="#delivery" class="btn-order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-img">
+                <img src="./image/hero.jpg" alt="Meatballs in tomato sauce">
+            </div>
+
+            <div class="hero-text">
+                <div dir="rtl">
+                    <p class="eyebrow">Egyptian home kitchen</p>
+                    <h1 dir="rtl">كل قَطْمَة <span>بتحكي حكاية</span></h1>
+                    <p class="lead">
+                        أكل مصري معمول كل يوم طازة، بوصفات بيحبها كل بيت، وبطعم يخليك تحس إنك بتاكل من إيد البيت.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                        <a href="#delivery" class="btn btn-outline">Order Now</a>
+                    </div>
+
+                    <ul class="stats">
+                        <li><strong>30 min</strong><span>Avg. delivery</span></li>
+                        <li><strong>100%</strong><span>Fresh daily</span></li>
+                        <li><strong>4.9★</strong><span>Customer rating</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features">
+            <div class="feature">
+                <span class="icon">🌿</span>
+                <h3>طازة كل يوم</h3>
+                <p>مكونات طازة بنختارها بعناية كل يوم علشان نقدم لك أحلى طعم.</p>
+            </div>
+
+            <div class="feature" style="justify-content: center;">
+                <img width="70px" src="./image/qa.jpeg" alt="">
+                <h3>طعم البيت</h3>
+                <p>وصفات مصرية أصلية متحضّرة بحب وبنفس طعم الأكل اللي بتحبه.</p>
+            </div>
+
+            <div class="feature">
+                <img width="90px" src="./image/—Pngtree—pizza delivery logo vector_9804136.png" alt="">
+                <h3>توصيل سريع</h3>
+                <p>وجبتك بتوصلك سخنة وطازة لحد باب بيتك في حوالي 30 دقيقة.</p>
+            </div>
+        </section>
+
+
+        <!-- Menu  -->
+        <section class="menu" id="menu" dir="rtl">
+            <div class="section-title">
+                <p class="eyebrow">Our menu</p>
+                <h2>Pick your <span>qatma</span></h2>
+            </div>
+
+            <div class="menu-grid">
+                <article class="card">
+                    <div class="card-img"
+                        style="background-image: url('./image/115998-طريقة-عمل-كفتة-داوود-باشا-\(3\).webp')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">داود باشا</h3>
+                        <p>كرات لحم متبلة ومطهوة في صلصة الطماطم الغنية.</p>
+                        <div class="card-footer">
+                            <span class="price">120 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/756.webp')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">كفتة مشوية</h3>
+                        <p>كفتة مشوية على الفحم، مع طحينة وسلطة وخبز بلدي دافئ.</p>
+                        <div class="card-footer">
+                            <span class="price">140 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/images.jpg')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">ملوخية بالفراخ</h3>
+                        <p>ملوخية طازة بالثوم والتقلية، مع أرز وفراخ طرية.</p>
+                        <div class="card-footer">
+                            <span class="price">110 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/Koshary.jpg')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">كشري قطمة</h3>
+                        <p>كشري على طريقتنا، مع بصل مقرمش وصلصة حارة مميزة.</p>
+                        <div class="card-footer">
+                            <span class="price">60 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/حواوشي.jpg')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">حواوشي</h3>
+                        <p>عيش بلدي مقرمش ومحشو بلحمة مفرومة متبلة بتتبيلة مميزة.</p>
+                        <div class="card-footer">
+                            <span class="price">75 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/5.jpg')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">فتة لحمة</h3>
+                        <p>أرز وعيش مقرمش مع قطع لحم طرية وصلصة بالثوم والخل.</p>
+                        <div class="card-footer">
+                            <span class="price">160 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/6.webp')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">مكرونة بشاميل</h3>
+                        <p>مكرونة بالبشاميل واللحمة المفرومة، متحمرة لحد ما تبقى ذهبية.</p>
+                        <div class="card-footer">
+                            <span class="price">130 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-image: url('./image/7.webp')"></div>
+                    <div class="card-body">
+                        <h3 dir="auto">محشي مشكل</h3>
+                        <p>تشكيلة محشي طازة بالأرز والخضرة، متسبكة بطعم البيت الأصيل.</p>
+                        <div class="card-footer">
+                            <span class="price">100 جنيه</span>
+                            <button class="btn-add">+ أضف</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--  About  -->
+        <section class="about" id="about" dir="rtl">
+            <div class="about-text">
+                <p class="eyebrow">عن قَطْمَة</p>
+
+                <h2>
+                    أكل بيتي بطعم <span>يفكّرك بالبيت</span>
+                </h2>
+
+                <p>
+                    بدأت قَطْمَة من فكرة بسيطة: إن أحلى أكل هو اللي تحس فيه بطعم البيت.
+                    كل وجبة بنحضرها طازة من مكونات مختارة بعناية،
+                    وبنفس الحب والاهتمام اللي بنحطهم في أكل بيتنا.
+                </p>
+
+                <p>
+                    مفيش اختصارات، ومفيش أكل متجمّد.
+                    أكل مصري حقيقي، معمول طازة وكل قَطْمَة فيها حكاية.
+                </p>
+            </div>
+
+            <blockquote class="about-quote">
+                "الأكل مش بس عشان نشبع، الأكل عشان نفتكر."
+                <h5>مطبخ قَطْمَة</h5>
+            </blockquote>
+        </section>
+
+        <section class="testimonials" dir="rtl">
+            <div class="section-title">
+                <p class="eyebrow">آراء عملائنا</p>
+                <h2>قالوا إيه عن <span>قَطْمَة</span></h2>
+            </div>
+
+            <div class="reviews-grid">
+                <article class="review">
+                    <div class="stars" aria-label="5 stars">★★★★★</div>
+                    <p>الداود باشا طعمه زي أكل ماما بالظبط، والتوصيل وصل سخن جدًا.</p>
+                    <div class="reviewer">
+                        <span class="avatar">أ</span>
+                        <div>
+                            <strong>أحمد محمود</strong>
+                            <small>طنطا</small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review">
+                    <div class="stars" aria-label="5 stars">★★★★★</div>
+                    <p>الملوخية بالفراخ تحفة، ومن أول مرة بقيت عميل ثابت عندهم.</p>
+                    <div class="reviewer">
+                        <span class="avatar">س</span>
+                        <div>
+                            <strong>سارة علي</strong>
+                            <small>المحلة</small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review">
+                    <div class="stars" aria-label="5 stars">★★★★★</div>
+                    <p>الكشري بتاعهم مختلف، والصلصة الحارة هي السر. أنصح بيه جدًا.</p>
+                    <div class="reviewer">
+                        <span class="avatar">م</span>
+                        <div>
+                            <strong>محمد حسن</strong>
+                            <small>طنطا</small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review">
+                    <div class="stars" aria-label="5 stars">★★★★★</div>
+                    <p>جربت الملوخية بالفراخ وكانت تحفة، الأكل وصل سخن والكمية كويسة جدًا.</p>
+                    <div class="reviewer"> <span class="avatar">س</span>
+                        <div> <strong>سارة محمد</strong> <small>طنطا</small> </div>
+                    </div>
+                </article>
+                <article class="review">
+                    <div class="stars" aria-label="5 stars">★★★★★</div>
+                    <p>الحواوشي مقرمش من بره وطري من جوه، والطعم فعلاً بيفكرك بأكل البيت. تجربة ممتازة.</p>
+                    <div class="reviewer"> <span class="avatar">ك</span>
+                        <div> <strong>كريم السيد</strong> <small>طنطا</small> </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="delivery" id="delivery" dir="rtl">
+            <h2>جعان؟ <br> قَطْمَة في طريقها ليك 🛵</h2>
+            <p>اطلب دلوقتي وخلي وجبتك توصلك سخنة وطازة لحد باب بيتك. والتوصيل مجانًا للطلبات فوق 500 جنيه.</p>
+            <a href="#menu" class="btn btn-gold">اطلب دلوقتي</a>
+        </section>
+    </main>
+
+    <!--  Footer  -->
+    <footer class="footer">
+        <img src="./image/WhatsApp Image 2026-10-06 at 1.34.00 AM.jpeg" alt="Qatma logo" class="footer-logo">
+
+        <p class="footer-tagline" dir="rtl">أكل بيتي بطعم مايتنسيش</p>
+
+        <div class="socials">
+            <a href="https://facebook.com/yourpage" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z" />
+                </svg>
+            </a>
+
+            <a href="https://instagram.com/yourpage" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" />
+                </svg>
+            </a>
+
+            <a href="https://tiktok.com/@yourpage" target="_blank" rel="noopener" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M16.6 3h-3.1v11.6a2.4 2.4 0 1 1-2.4-2.4c.3 0 .5 0 .8.1V9.1a5.5 5.5 0 1 0 4.7 5.5V9a6.6 6.6 0 0 0 3.9 1.3V7.2A3.9 3.9 0 0 1 16.6 3z" />
+                </svg>
+            </a>
+        </div>
+
+        <p class="copyright">© 2026 Qatma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
