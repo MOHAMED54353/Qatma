@@ -29,4 +29,4 @@ Qatma/
 
 Visit the live website:
 
-https://qatma-seven.vercel.app
+https://qatma-seven.vercel.app/
